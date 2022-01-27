@@ -1,0 +1,38 @@
+.outerForm{
+    border: 1px solid white;
+    /* text-align:center; */
+    padding:10vh;
+    background-color: white;
+    width: 40%;
+    margin:10vh 0 0 25vw;
+    border-radius:30px
+}
+.innerForm1 ,.innerForm2{
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+.innerForm1 input{
+    margin-left:6px
+}
+input{
+    width: 300px;
+    height:20px;
+}
+.button{
+    color:white;
+    font-size:20px;
+    background-color: rgb(103, 63, 139);
+    border: none;
+    margin: 2vh;
+}
+@media screen and (min-width:300px) and (max-width:600px){
+    input{
+        width: 100px;
+        height:20px;
+    }
+    .outerForm{
+        margin-left: 8vw;
+        text-align: center;
+    }
+}
